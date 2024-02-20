@@ -4,7 +4,7 @@ This is a lightweight C++ library for parsing and manipulating INI (Initializati
 
 ## Features
 
-- Parse INI files and access their contents programmatically.
+- Parse INI files and access their contents.
 - Add, modify, or remove sections, keys, and values.
 - Save modified data back to the INI file.
 
