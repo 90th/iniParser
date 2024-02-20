@@ -1,0 +1,2 @@
+# iniParser
+Lightweight C++ IniParser
