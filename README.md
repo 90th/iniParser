@@ -41,6 +41,15 @@ int main() {
     return 0;
 }
 ```
+## Handles Comments Gracefully
+### Example:
+
+```ini
+; This is a comment
+# This is also a comment
+[Section1]
+Key1=Value1
+```
 
 ## API Reference
 
