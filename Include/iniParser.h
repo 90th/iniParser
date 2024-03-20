@@ -2,10 +2,8 @@
 #define INIPARSER_H
 
 #include <iostream>
-#include <cctype>
 #include <fstream>
 #include <sstream>
-#include <algorithm>
 #include <unordered_map>
 #include <stdexcept>
 
