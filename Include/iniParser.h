@@ -60,12 +60,12 @@ public:
 		}
 	}
 
-	void parseFromFile(const std::string& filename);
-	void setValue(const std::string& section, const std::string& key, const std::string& value);
-	void saveToFile(const std::string& filename) const;
+	inline void parseFromFile(const std::string& filename);
+	inline void setValue(const std::string& section, const std::string& key, const std::string& value);
+	inline void saveToFile(const std::string& filename) const;
 };
 
-void IniParser::parseFromFile(const std::string& filename) {
+ void IniParser::parseFromFile(const std::string& filename) {
 	std::ifstream file(filename);
 	if (!file.is_open()) {
 		throw std::runtime_error("Failed to open file: " + filename);
